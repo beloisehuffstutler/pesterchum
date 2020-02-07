@@ -285,7 +285,7 @@ class userConfig(object):
     def server(self):
         if hasattr(self.parent, 'serverOverride'):
             return self.parent.serverOverride
-        return self.config.get('server', 'irc.mindfang.org')
+        return self.config.get('server', 'irc.trollian.space')
     def port(self):
         if hasattr(self.parent, 'portOverride'):
             return self.parent.portOverride
